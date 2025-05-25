@@ -21,7 +21,7 @@ var style_moshtohr_vegetation_map_1 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(126,163,124,0.5137254901960784)'}),
+        fill: new ol.style.Fill({color: 'rgba(11,222,150,0.48627450980392156)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
